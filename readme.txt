@@ -1,4 +1,4 @@
-=== Countdown Popup ===
+=== Wordpress Countdown Popup ===
 Contributors: Mr.XSecr3t
 Tags: countdown, popup, timer
 Requires at least: 5.0
@@ -12,6 +12,9 @@ Popup countdown with custom text, manual date target, color picker, and optional
 == Changelog ==
 = 2.2 =
 
+HOW TO USE :
+1. UPLOAD ON /plugins folder onto your file manager.
 == NO UPDATE NEEDED =
 == FREE FOR FURTHER DEVELOP ==
+
 
