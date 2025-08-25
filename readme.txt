@@ -14,7 +14,13 @@ Popup countdown with custom text, manual date target, color picker, and optional
 
 HOW TO USE :
 1. UPLOAD ON /plugins folder onto your file manager.
+2. OR ZIP in as united files => go to add plugins and upload into it.
+3. don't forget activate
+4. see Settings => Popup Countdown Menu
+DONE as you expected.
+
 == NO UPDATE NEEDED =
 == FREE FOR FURTHER DEVELOP ==
+
 
 
