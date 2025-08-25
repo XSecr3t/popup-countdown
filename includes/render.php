@@ -10,7 +10,7 @@ function ali_cdp_render_popup(){
     $target_date_js  = date('Y-m-d\TH:i:s', strtotime($target_date_raw));
     $title_color     = get_option('ali_cdp_title_color','#385444');
     $box_color       = get_option('ali_cdp_box_color','#385444');
-    $custom_text     = get_option('ali_cdp_custom_text','SEBENTAR LAGI SIAP MENGUDARA INSYAA ALLAH!');
+    $custom_text     = get_option('ali_cdp_custom_text','blank');
     $display_mode    = get_option('ali_cdp_display_mode','always');
 
     ?>
@@ -28,13 +28,13 @@ function ali_cdp_render_popup(){
 
 <div id="ali-cdp-overlay">
   <div id="ali-cdp-popup">
-    <button id="ali-cdp-close" aria-label="Tutup popup" type="button">&times;</button>
+    <button id="ali-cdp-close" aria-label="close popup" type="button">&times;</button>
     <h2 id="ali-cdp-title"><?php echo esc_html($custom_text); ?></h2>
     <div id="ali-cdp-countdown">
-      <div class="ali-cdp-item"><div id="ali-cdp-days">0</div><span>Hari</span></div>
-      <div class="ali-cdp-item"><div id="ali-cdp-hours">0</div><span>Jam</span></div>
-      <div class="ali-cdp-item"><div id="ali-cdp-minutes">0</div><span>Menit</span></div>
-      <div class="ali-cdp-item"><div id="ali-cdp-seconds">0</div><span>Detik</span></div>
+      <div class="ali-cdp-item"><div id="ali-cdp-days">0</div><span>days</span></div>
+      <div class="ali-cdp-item"><div id="ali-cdp-hours">0</div><span>hours</span></div>
+      <div class="ali-cdp-item"><div id="ali-cdp-minutes">0</div><span>minutes</span></div>
+      <div class="ali-cdp-item"><div id="ali-cdp-seconds">0</div><span>seconds</span></div>
     </div>
   </div>
 </div>
@@ -69,7 +69,7 @@ function ali_cdp_render_popup(){
 
     if(distance <= 0){
       var box = document.getElementById('ali-cdp-countdown');
-      if(box) box.innerHTML = '<strong>Waktu Habis!</strong>';
+      if(box) box.innerHTML = '<strong>Times Out!</strong>';
       clearInterval(iv);
       return;
     }
