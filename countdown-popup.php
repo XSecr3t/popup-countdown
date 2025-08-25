@@ -3,7 +3,7 @@
  * Plugin Name: Countdown Popup (Modular)
  * Description: Popup countdown dengan teks custom, tanggal target manual, color picker, tombol tutup, real-time mengikuti timezone browser.
  * Version: 3.0
- * Author: Muhammad Taufik Ali Razaq
+ * Author: Mr.XSecr3t
  */
 
 if (!defined('ABSPATH')) exit;
