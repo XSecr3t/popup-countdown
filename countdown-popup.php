@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: Countdown Popup (Modular)
+ * Plugin Name: Wordpress Countdown Popup
  * Description: Popup countdown dengan teks custom, tanggal target manual, color picker, tombol tutup, real-time mengikuti timezone browser.
- * Version: 3.0
+ * Version: 2.2
  * Author: Mr.XSecr3t
  */
 
