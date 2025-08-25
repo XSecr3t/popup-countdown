@@ -24,31 +24,31 @@ function ali_cdp_settings_page(){ ?>
 <?php do_settings_sections('ali-cdp-group'); ?>
 <table class="form-table">
 <tr>
-<th scope="row"><label for="ali_cdp_target_date">Tanggal Target</label></th>
+<th scope="row"><label for="ali_cdp_target_date">Date Target</label></th>
 <td><input type="datetime-local" id="ali_cdp_target_date" name="ali_cdp_target_date" 
 value="<?php echo esc_attr(get_option('ali_cdp_target_date','2025-09-10T23:59')); ?>" class="regular-text" /></td>
 </tr>
 <tr>
-<th scope="row"><label for="ali_cdp_custom_text">Teks Popup</label></th>
-<td><textarea id="ali_cdp_custom_text" name="ali_cdp_custom_text" rows="3" class="large-text"><?php echo esc_textarea(get_option('ali_cdp_custom_text','SEBENTAR LAGI SIAP MENGUDARA INSYAA ALLAH!')); ?></textarea></td>
+<th scope="row"><label for="ali_cdp_custom_text">Popup Text</label></th>
+<td><textarea id="ali_cdp_custom_text" name="ali_cdp_custom_text" rows="3" class="large-text"><?php echo esc_textarea(get_option('ali_cdp_custom_text','blank')); ?></textarea></td>
 </tr>
 <tr>
-<th scope="row"><label for="ali_cdp_title_color">Warna Judul</label></th>
+<th scope="row"><label for="ali_cdp_title_color">Title of Color</label></th>
 <td><input type="color" id="ali_cdp_title_color" name="ali_cdp_title_color"
 value="<?php echo esc_attr(get_option('ali_cdp_title_color','#385444')); ?>" /></td>
 </tr>
 <tr>
-<th scope="row"><label for="ali_cdp_box_color">Warna Kotak Countdown</label></th>
+<th scope="row"><label for="ali_cdp_box_color">Color of box popup</label></th>
 <td><input type="color" id="ali_cdp_box_color" name="ali_cdp_box_color"
 value="<?php echo esc_attr(get_option('ali_cdp_box_color','#385444')); ?>" /></td>
 </tr>
 <tr>
-<th scope="row"><label for="ali_cdp_display_mode">Mode Tampilkan</label></th>
+<th scope="row"><label for="ali_cdp_display_mode">Showing Mode</label></th>
 <td>
 <select id="ali_cdp_display_mode" name="ali_cdp_display_mode">
-<option value="always" <?php selected(get_option('ali_cdp_display_mode','always'),'always'); ?>>Selalu Muncul</option>
-<option value="session" <?php selected(get_option('ali_cdp_display_mode','always'),'session'); ?>>Sekali per Sesi/Tab</option>
-<option value="day" <?php selected(get_option('ali_cdp_display_mode','always'),'day'); ?>>Sekali per Hari</option>
+<option value="always" <?php selected(get_option('ali_cdp_display_mode','always'),'always'); ?>>Always Showing</option>
+<option value="session" <?php selected(get_option('ali_cdp_display_mode','always'),'session'); ?>>Once per session/tab</option>
+<option value="day" <?php selected(get_option('ali_cdp_display_mode','always'),'day'); ?>>Once per day</option>
 </select>
 </td>
 </tr>
