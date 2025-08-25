@@ -11,3 +11,8 @@ Popup countdown with custom text, manual date target, color picker, and optional
 
 == Changelog ==
 = 2.2 =
+
+== NO UPDATE NEEDED =
+== FREE FOR FURTHER DEVELOP ==
+
+DONATE :
