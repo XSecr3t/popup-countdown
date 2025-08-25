@@ -15,4 +15,3 @@ Popup countdown with custom text, manual date target, color picker, and optional
 == NO UPDATE NEEDED =
 == FREE FOR FURTHER DEVELOP ==
 
-DONATE :
